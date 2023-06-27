@@ -1,0 +1,47 @@
+.selectedItem{  
+    margin-top:10px;
+    background: #fafafa;
+    padding: 1rem;
+    right: 0;
+    width: 400px;
+    z-index: 1000;
+    position: relative;
+}
+
+.selectedItem i{    
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:10px 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.selectedItem i:hover {
+    opacity: 0.8;
+}
+
+.res_msg{  
+    margin-top:10px;
+    background: #fafafa;
+    padding: 1rem;
+    right: 0;
+    width: 90%;
+    z-index: 1000;
+    height: 120px;
+    overflow: scroll;
+    position: relative;
+}
+
+.res_msg i{    
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:10px 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.res_msg i:hover {
+    opacity: 0.8;
+}

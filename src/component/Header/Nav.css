@@ -1,0 +1,13 @@
+.responsive__menu{
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .Menu{
+        display: none;
+    }
+    .responsive__menu{
+        display: block;
+    }    
+}
+
